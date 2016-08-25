@@ -1,63 +1,22 @@
-# ZURB Template
+#Use Cases Page
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+##Instructions:
+- [ ] Use your HTML/CSS/JS skills to build these two sections of our upcoming Use Cases page: https://www.dropbox.com/s/mf9a4gcp4o8gwk4/Automated%20Insights%20web%20developer%20test.png?dl=0
 
-This is the official ZURB Template for use with [Foundation for Sites](http://foundation.zurb.com/sites). We use this template at ZURB to deliver static code to our clients. It has a Gulp-powered build system with these features:
+- [ ] We use Foundation for all the layout of our site, so bonus points for using it in your work
 
-- Handlebars HTML templates with Panini
-- Sass compilation and prefixing
-- JavaScript concatenation
-- Built-in BrowserSync server
-- For production builds:
-  - CSS compression
-  - JavaScript compression
-  - Image compression
+- [ ] The page you create should be responsive as well (at least for phone sizes, you can ignore tablets for this test)
 
-## Installation
+- [ ] We use the font "Roboto"
 
-To use this template, your computer needs:
+- [ ] In the top section with the blue background:
+Here's the background image: https://www.dropbox.com/s/ya0syy6oi3n0b3f/blue_background%402x.png?dl=0
 
-- [NodeJS](https://nodejs.org/en/) (0.10 or greater)
-- [Git](https://git-scm.com/)
+- [ ] The images at the top of the four boxes in this section should be links. Link to automatedinsights.com for this test. **You can use any images you want, but you get extra credit for using the ones shown in the mockup**
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+- [ ] The "Learn More" and "Request More Info" buttons should also link to automatedinsights.com
 
-### Using the CLI
+- [ ] In the bottom section with the "Wordsmith for Real Estate" image
+The two call-to-action buttons should link to automatedinsights.com
 
-Install the Foundation CLI with this command:
-
-```bash
-npm install foundation-cli --global
-```
-
-Use this command to set up a blank Foundation for Sites project with this template:
-
-```bash
-foundation new --framework sites --template zurb
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
-
-Then open the folder in your command line, and install the needed dependencies:
-
-```bash
-cd projectname
-npm install
-bower install
-```
-
-Finally, run `npm start` to run Gulp. Your finished site will be created in a folder called `dist`, viewable at this URL:
-
-```
-http://localhost:8000
-```
-
-To create compressed, production-ready assets, run `npm run build`.
+- [ ] The "Wordsmith for Real Estate" image should be replaced with an embedded YouTube video when you click on it. Choose any YouTube video you want!
